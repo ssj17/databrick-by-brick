@@ -7,8 +7,8 @@ Edition.
 
 ## Topics Covered
 - PySpark DataFrame API — schema definition, transformations, actions
-- Window functions — ROW_NUMBER, RANK, LAG, LEAD
-- Joins, groupBy, aggregations
+- Window functions — ROW_NUMBER, RANK, DENSE_RANK, Cumulative SUM
+- Joins, groupBy, aggregations, Splits, Collect_list, Pivot
 
 ## Topics to be Added
 - Python data structures — collections, generators, comprehensions
@@ -22,8 +22,7 @@ Edition.
 
 ## How to Use
 Open in Databricks by importing the `.ipynb` file via
-**Workspace → Import → File**. Each section is self-contained
-and can be run independently.
+**Workspace → Import → File**. Run cells sequentially from top to bottom. 
 
 ## Status
 Actively updated as prep continues.
